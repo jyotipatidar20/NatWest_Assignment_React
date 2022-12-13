@@ -1,6 +1,245 @@
 .App {
   text-align: center;
 }
+#bigbox{
+  width: 830px;
+  height: 625px;
+  border: 2px solid black;
+  background-color: gray;
+  margin: auto;
+  margin-top: 5px;
+}
+#mainbox{
+  width: 800px;
+  height: 590px;
+  border: 9px solid black;
+  background-color: white;
+  margin: auto;
+  box-shadow: 0px 0px 2px 2px black;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+#Body{
+  margin-left: 205px;
+  width: 590px;
+  height: 530px;
+  margin-top: -532px;
+  border: 2px solid rgb(247, 245, 245);
+  }
+
+#name {
+  margin-left: 20px;
+  color: rgb(8, 8, 20);
+}
+span{
+  color: red;
+}
+#bussiness{
+  margin-left: 20px;
+  margin-top: -10px;
+}
+#line {
+  width: 250px;
+  margin-top: -5px;
+  margin-left: 20px;
+  background-color: rgb(38, 0, 255);
+  height: 1px;
+  border: 1px solid   rgb(88, 41, 218);
+
+}
+#round{
+  color: rgb(44, 44, 240);
+  margin-left: 20px;
+  font-size: 20px;
+}
+#insidebox{
+  width: 500px;
+  height: 200px;
+  border: 2px solid rgb(245, 242, 242);
+  margin-left: 50px;
+  margin-top: -10px;
+   display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row: auto auto; 
+}
+
+#ele1,#ele2,#ele3,#ele4,#ele5,#ele6,#ele6,#ele7,#ele8,#ele9{
+  width: 160px;
+  height: 60px;
+  border: 1px solid wheat;
+}
+#level{
+  font-size: 12px;
+  margin-left: 30px;
+}
+#one{
+  margin-left: 30px;
+  margin-top: -10px;
+}
+#line2{
+  width: 110px;
+  border: 1px solid rgb(76, 0, 255);
+  margin-top: -10px;
+  background-color: blue;
+  height: 2px;
+}
+#line3{
+  width: 120px;
+  border: 1px solid rgb(55, 0, 255);
+  margin-top: -10px;
+  height: 2px;
+  background-color: blue;
+}
+#line4{
+  width: 150px;
+  border:1px solid rgb(202, 184, 225);
+  margin-left: 3px;
+  background-color: rgb(199, 199, 236);
+  height: 2px;
+  margin-top: -5px;
+}
+
+#line12{
+  width: 150px;
+  border:1px solid rgb(115, 0, 255);
+  margin-left: 3px;
+  background-color: blue;
+  height: 2px;
+  margin-top: -10px;
+}
+#telephonic{
+  margin-left: 10px;
+  margin-top: -10px;
+  font-size: 15px;
+}
+#select{
+  font-size: 20px;
+  margin-left: 10px;
+  font-size: 10px;
+}
+#people{
+  margin-top: 3px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+#secondname{
+  font-size: 13px;
+  margin-left: 10px;
+}
+#checkbox{
+  width: 20px;
+  height: 201px;
+  border: 1px solid black;
+  margin-top: -310px;
+  margin-left: 45px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows: auto auto auto auto;
+}
+#grid2{
+  width: 20px;
+  height: 48px;
+  border: 1px solid black;
+  background-color: red;
+}
+#grid4{
+  width: 20px;
+  height: 48px;
+  border: 1px solid black;
+  background-color: black;
+}
+#blackBtn{
+  font-size: 8px;
+  margin-top: 10px;
+}
+#redBtn{
+  font-size: 8px;
+  margin-top: 13px;
+}
+#updatebtn{
+  margin-left: 200px;
+  background-color: blue;
+  margin-top: 50px;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 7px;
+}
+#cancelbtn{
+  margin-left: 20px;
+  width: 100px;
+  background-color: rgb(188, 188, 203);
+  height: 30px;
+  color:black;
+  border-radius: 7px;
+}
+#thirdBtn{
+  margin-left: 500px;
+  border-radius: 3px;
+  margin-top: -300px;
+  background-color: cornflowerblue;
+}
+#header{
+  width: 610px;
+  height: 50px;
+  border: 2px solid rgb(70, 14, 210);
+  background-color: blue;
+  margin-left: 190px;
+}
+#cross{
+  color: white;
+  margin-top: -50px;
+  margin-left: 550px;
+}
+#bin{
+  font-size: 15px;
+  color: white;
+  margin-left: 1px;
+}
+#interview{
+  color: white;
+  margin-left: 20px;
+  margin-top: 3px;
+  font-size: 25px;
+}
+#Footer{
+  width: 200px;
+  height: 590px;
+  border: 2px solid black;
+  background-color: black;
+  margin-top: -60px;
+}
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9{
+  border: 1px solid rgb(30, 15, 15);
+  color: aliceblue;
+  width: 200px;
+}
+table  tr {
+  height: 45px;
+  width: 90px;
+  margin-top: 20px;
+}
+.item11,.item12,.item13 {
+  border: 2px solid rgb(20, 8, 8);
+  width: 250px;
+  height: 10px;
+  margin-left: 90px;
+  text-align: center;
+
+}
+.item10 {
+  width: 250px;
+  height: 10px;
+  border: 1px solid rgb(20, 14, 14);
+  color: white;
+}
+#recruit{
+  background-color: black;
+  color: white;
+  border: black;
+  font-size: 15px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
